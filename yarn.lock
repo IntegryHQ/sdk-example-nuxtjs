@@ -958,10 +958,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
-"@integry/sdk@^0.0.93":
-  version "0.0.93"
-  resolved "https://registry.yarnpkg.com/@integry/sdk/-/sdk-0.0.93.tgz#54136ac25132e7a2356507b5316f197c8fd74262"
-  integrity sha512-Nj6cFfxxHGVKZdHBEpiXfbDQqWt3AH5/GcWsqnftbWV/XgqQ7RLFypPwojAdhO1W4w7D2cnIS18xnIsZmmRIqg==
+"@integry/sdk@^0.0.94":
+  version "0.0.94"
+  resolved "https://registry.yarnpkg.com/@integry/sdk/-/sdk-0.0.94.tgz#5fa226f16a4a9b5d4aba46a611685e9958ff4a88"
+  integrity sha512-uT3YXMUuVOu2S7SIvb5s7pfhscC90ovbYstaIcdqt4hf6Z3m+raQvj2vK3EpaKIAlTQggXQpjydxTnNFM4OX9A==
   dependencies:
     classnames "^2.3.1"
     dompurify "^2.3.1"

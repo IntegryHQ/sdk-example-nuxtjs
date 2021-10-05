@@ -11,7 +11,7 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
-    "@integry/sdk": "^0.0.93",
+    "@integry/sdk": "^0.0.94",
     "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7"
