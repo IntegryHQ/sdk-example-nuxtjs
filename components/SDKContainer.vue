@@ -9,11 +9,13 @@ export default {
   async mounted() {
     // Fill these in from the SDK deployments page
     const appKey = '<APP_KEY>'
+    const appSecret = '<APP_SECRET>'
+    const userId = '<USER_ID>'
     const deploymentId = '<DEPLOY_ID>'
 
     // This is intended for use in testing only!
     // Please refer to sdk.integry.io for more details
-    const hash = await Helpers.getAuthHash('<USER_ID>', '<APP_SECRET>')
+    const hash = await Helpers.getAuthHash(userId, appSecret)
 
     const integryHandle = new IntegryJS({
       appKey,
