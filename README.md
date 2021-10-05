@@ -1,4 +1,6 @@
-# sdk-test
+# Integry SDK NuxtJS Example
+
+![Nuxt Integry SDK Screengrab](static/screengrab.png 'Screengrab')
 
 ## Build Setup
 
@@ -17,7 +19,20 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+## Add SDK config variables
+
+```js
+// SDKContainer.vue
+
+const appKey = '<APP_KEY>'
+const appSecret = '<APP_SECRET>'
+const userId = '<USER_ID>'
+const deploymentId = '<DEPLOY_ID>'
+```
+
+For detailed explanation on how things work, check out the [documentation](https://sdk.integry.io).
+
+# Nuxt Docs
 
 ## Special Directories
 
@@ -40,7 +55,6 @@ More information about the usage of this directory in [the documentation](https:
 Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
 
 ### `pages`
 
